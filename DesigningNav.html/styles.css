@@ -1,0 +1,68 @@
+.navbar
+{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+body
+{
+    margin: 0;
+}
+
+nav
+{
+    background-color: black;
+    padding:30px;
+}
+
+.container
+{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item
+{
+    padding: 40px;
+    border: 2px solid black; 
+}
+
+.heading
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+img
+{
+    align-self: center;
+    height: 80px;
+}
+
+p
+{
+    color: white;
+}
+
+.nav-image{
+    display: inline;
+}
+
+@media all and (max-width:800px)
+{
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height:900px;
+    }
+}
